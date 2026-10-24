@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Editable student portfolio and academic planner built with HTML, CSS, and JavaScript."
+    />
+    <title>Projects | Student Portfolio & Academic Planner</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">S<span class="accent">.</span></span
+          ><span>STUDENT<span class="brand-light">SPACE</span></span></a
+        >
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html" aria-current="page" class="active"
+            >Projects</a
+          >
+          <a href="planner.html">Planner</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-intro">
+        <div class="container">
+          <span class="kicker">PORTFOLIO</span>
+          <h1>
+            Things I've <span class="gradient-text">built & learned.</span>
+          </h1>
+          <p>
+            A showcase of projects I've worked on and skills I've developed
+            along the way.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="project-grid">
+            <article class="project-card large-card">
+              <img
+                src="assets/images/PersonalSite.PNG"
+                alt="Image of my personal website"
+              />
+              <div class="card-content">
+                <span class="card-index">PROJECT 01</span>
+                <h2>Personal Website</h2>
+                <p>A responsive website using semantic HTML and custom CSS.</p>
+                <p class="tags">HTML · CSS</p>
+                <a
+                  class="button outline"
+                  href="https://angelinachima.github.io/My_Personal_Website/"
+                  >View project ↗</a
+                >
+              </div>
+            </article>
+            <article class="project-card large-card">
+              <img
+                src="assets/images/Planner.PNG"
+                alt="Image of my academic task planner"
+              />
+              <div class="card-content">
+                <span class="card-index">PROJECT 02</span>
+                <h2>Academic Task Planner</h2>
+                <p>
+                  Create study tasks, tick completed work, delete items and
+                  check how many tasks remain.
+                </p>
+                <p class="tags">HTML · CSS · JavaScript</p>
+                <a class="button outline" href="planner.html">View project ↗</a>
+              </div>
+            </article>
+            <article class="project-card large-card">
+              <img
+                src="assets/images/BiodataForm.PNG"
+                alt="Image of a biodata form"
+              />
+              <div class="card-content">
+                <span class="card-index">PROJECT 03</span>
+                <h2>Student Bio-data Form</h2>
+                <p>
+                  A Biodata Form with Passport Photograph Embedded as iFrames.
+                </p>
+                <p class="tags">HTML forms · CSS · JavaScript validation</p>
+                <a
+                  class="button outline"
+                  href="https://angelinachima.github.io/BioData_Form/"
+                  >View project ↗</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year">2026</span> Angelina Delalu. All rights
+          reserved.</span
+        ><span>Made with HTML, CSS & JavaScript</span>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

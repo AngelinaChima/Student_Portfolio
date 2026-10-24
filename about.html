@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Editable student portfolio and academic planner built with HTML, CSS, and JavaScript."
+    />
+    <title>About Me | Student Portfolio & Academic Planner</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">S<span class="accent">.</span></span
+          ><span>STUDENT<span class="brand-light">SPACE</span></span></a
+        >
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html" aria-current="page" class="active">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="planner.html">Planner</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-intro">
+        <div class="container">
+          <span class="kicker">GET TO KNOW ME</span>
+          <h1>A little about <span class="gradient-text">my journey.</span></h1>
+          <p>
+            My background, interests, goals and the skills I'm working to
+            develop.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container about-layout">
+          <article class="panel">
+            <h2>01 / My story</h2>
+            <p>
+              Hi, my name is <strong>Angelina Delalu</strong>, a student at
+              <strong>Miva Open University</strong> studying
+              <strong>Computer Science</strong>. I am from a small town in Imo
+              State, Nigeria. My passion for <strong>technology</strong> grew as
+              I discovered its potential for <strong>automation</strong>,
+              problem-solving and improving lives. This inspired me to keep
+              learning and explore how technology can create meaningful
+              solutions to real-world challenges.
+            </p>
+            <h3>Career aspirations</h3>
+            <p>
+              My career aspiration is to become a Solution Architect
+              specializing in Microsoft Power Platform, AI, and web development.
+              I aim to build innovative applications, create responsive websites
+              and automate business processes to solve real-world problems. I
+              also hope to share my knowledge and mentor aspiring tech
+              professionals, especially those with limited access to technology
+              opportunities.
+            </p>
+          </article>
+          <aside class="panel side-panel">
+            <h2>At a glance</h2>
+            <dl class="facts">
+              <dt>Institution</dt>
+              <dd>Miva Open University</dd>
+              <dt>Programme</dt>
+              <dd>Computer Science</dd>
+              <dt>Current level</dt>
+              <dd>Undergraduate</dd>
+              <dt>Interests</dt>
+              <dd>Web development, technology, learning</dd>
+            </dl>
+          </aside>
+        </div>
+      </section>
+      <section class="section section-tint">
+        <div class="container">
+          <h2>Educational background</h2>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Educational Qualification</th>
+                  <th scope="col">Institution/Description</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Bachelor's Degree in Computer Science</th>
+                  <td>Miva Open University</td>
+                  <td>In Progress</td>
+                </tr>
+                <tr>
+                  <th scope="row">Frontend Development Certificate</th>
+                  <td>AltSchool Africa</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    National Diploma in Science Laboratory Technology
+                  </th>
+                  <td>Yaba College of Technology</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <th scope="row">Secondary School Certificate</th>
+                  <td>Einstein College</td>
+                  <td>Completed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container two-cols">
+          <article>
+            <h2>Technical skills</h2>
+            <ul class="feature-list">
+              <li>HTML5 — semantic structure</li>
+              <li>CSS3 — styling and Flexbox</li>
+              <li>JavaScript — beginner-level interactivity</li>
+              <li>Microsoft Power Platform — Power Apps, Power Automate</li>
+              <li>Microsoft Office Suite — Word, Excel, PowerPoint</li>
+            </ul>
+          </article>
+          <article>
+            <h2>Hobbies & interests</h2>
+            <ul class="feature-list">
+              <li>Exploring and learning new technologies</li>
+              <li>Exploring artificial intelligence and automation</li>
+              <li>Developing applications and solving technical problems</li>
+              <li>Creative thinking and personal development</li>
+              <li>Farming, swimming and Resting</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="section section-tint">
+        <div class="container two-cols">
+          <article class="panel">
+            <h2>Academic achievements as certificates</h2>
+            <ul>
+              <li>
+                AWS Foundations: Getting Started with the AWS Cloud Essentials
+              </li>
+              <li>Digital Transformation with Google Cloud</li>
+              <li>AI Certificate</li>
+              <li>AB-900: Microsoft 365 and AI Business Fundamentals</li>
+              <li>PL-400: Power Platform Developer</li>
+              <li>PL-900: Power Platform Fundamentals</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h2>A short video</h2>
+            <p>A short video showcasing the transformative power of coding.</p>
+            <video class="my-video" controls>
+              <source src="assets/media/WebSite_Vid.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year">2026</span> Angelina Delalu. All rights
+          reserved.</span
+        ><span>Made with HTML, CSS & JavaScript</span>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

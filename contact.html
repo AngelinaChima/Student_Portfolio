@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Editable student portfolio and academic planner built with HTML, CSS, and JavaScript."
+    />
+    <title>Contact | Student Portfolio & Academic Planner</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">S<span class="accent">.</span></span
+          ><span>STUDENT<span class="brand-light">SPACE</span></span></a
+        >
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="planner.html">Planner</a>
+          <a href="contact.html" aria-current="page" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-intro">
+        <div class="container">
+          <span class="kicker">SAY HELLO</span>
+          <h1>Let's <span class="gradient-text">connect.</span></h1>
+          <p>
+            Have a question, an idea, or feedback? Contact me below.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="contact-side">
+            <span class="kicker">CONTACT DETAILS</span>
+            <h2>I'd love to hear from you.</h2>
+            <div class="contact-detail">
+              <span>✉</span>
+              <div>
+                <strong>Email</strong>
+                <p>a.onuoha@miva.edu.ng</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span>◎</span>
+              <div>
+                <strong>Location</strong>
+                <p>Lagos, Nigeria</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span>☎</span>
+              <div>
+                <strong>Phone Number</strong>
+                <p>+234 703 108 6361</p>
+              </div>
+            </div>
+          </div>
+          <section class="panel contact-form-panel" aria-label="Contact form">
+            <h2>Send a message</h2>
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="fullName"
+                    >Full name <span aria-hidden="true">*</span></label
+                  ><input
+                    id="fullName"
+                    name="fullName"
+                    type="text"
+                    autocomplete="name"
+                    placeholder="Your full name"
+                    required
+                    aria-describedby="nameError"
+                  />
+                  <p id="nameError" class="field-error"></p>
+                </div>
+                <div class="field">
+                  <label for="email"
+                    >Email address <span aria-hidden="true">*</span></label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                    required
+                    aria-describedby="emailError"
+                  />
+                  <p id="emailError" class="field-error"></p>
+                </div>
+              </div>
+              <div class="field">
+                <label for="phone"
+                  >Phone number <span aria-hidden="true">*</span></label
+                ><input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  inputmode="numeric"
+                  placeholder="Digits only, e.g. 08012345678"
+                  required
+                  aria-describedby="phoneError"
+                />
+                <p id="phoneError" class="field-error"></p>
+              </div>
+              <div class="field">
+                <label for="message"
+                  >Your message <span aria-hidden="true">*</span></label
+                ><textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Write your message here..."
+                  required
+                  aria-describedby="messageError"
+                ></textarea>
+                <p id="messageError" class="field-error"></p>
+              </div>
+              <button class="button primary full-button" type="submit">
+                Send message →
+              </button>
+              <p
+                id="formResult"
+                class="form-result"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+     
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year">2026</span> Angelina Delalu. All rights
+          reserved.</span
+        ><span>Made with HTML, CSS & JavaScript</span>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+    <script src="js/contact.js" defer></script>
+  </body>
+</html>
