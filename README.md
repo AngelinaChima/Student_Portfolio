@@ -1,5 +1,5 @@
 
-# Student Portfolio & Academic Planner
+# Student Portfolio & Academic Management Website
 
 Welcome to my personal portfolio website!
 
